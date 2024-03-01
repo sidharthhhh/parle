@@ -2,7 +2,7 @@ import React from 'react';
 
 const Brand = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id='brand' className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-5 gap-4">
         <div className="col-span-1">
           <h1 className="text-xl font-thin mb-2 text-red-500 text-center">Biscuits</h1>

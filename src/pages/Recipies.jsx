@@ -5,7 +5,7 @@ import CardImage3 from '../assets/img3.jpg';
 
 const Recipes = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id='recipies' className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:ml-0 md:ml-36">
         {/* Card 1 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md relative w-full sm:w-64">

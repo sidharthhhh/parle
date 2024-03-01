@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"; // Import the close (cross) icon
 import logo from "../assets/home_logo.png";
 import logo2 from "../assets/logo2.png";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -24,8 +25,8 @@ const Nav = () => {
           <div className="hidden sm:flex sm:items-center sm:space-x-20 animate-pulse">
             <a href="/about" className="hover:scale-100 ease-in duration-300 text-white text-2xl font-thin">ABOUT US</a>
             <a href="/brand" className="hover:scale-100 ease-in duration-300 text-white text-2xl font-thin">BRAND</a>
-            <a href="/about" className="hover:scale-100 ease-in duration-300 text-white text-2xl font-thin">PARLE RECIPIES</a>
-            <a href="/about" className="hover:scale-100 ease-in duration-300 text-white text-2xl font-thin">CARRIERS</a>
+            <a href="/recipies" className="hover:scale-100 ease-in duration-300 text-white text-2xl font-thin">PARLE RECIPIES</a>
+            <a href="/carrers" className="hover:scale-100 ease-in duration-300 text-white text-2xl font-thin">CARRIERS</a>
             
             <FaBars
               className="text-4xl text-stone-50 cursor-pointer"
