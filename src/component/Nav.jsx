@@ -16,11 +16,11 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-red-600 px-4 sm:px-6 lg:px-8">
+    <nav className="bg-red-600 px-4 sm:px-6 lg:px-8 overflow-x-hidden">
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
           <div className="flex items-center mr-4">
-            <img src={logo} alt="Logo" className="h-12 sm:h-16 lg:h-20" />
+            <a href="/"><img src={logo} alt="Logo" className="h-12 sm:h-16 lg:h-20" /></a>
           </div>
           <div className="hidden sm:flex sm:items-center sm:space-x-20 animate-pulse">
             <a href="/about" className="hover:scale-100 ease-in duration-300 text-white text-2xl font-thin">ABOUT US</a>
